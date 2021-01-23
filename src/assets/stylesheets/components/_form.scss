@@ -1,0 +1,18 @@
+.form{
+  display:flex;
+  flex-flow: column nowrap;
+  align-self: flex-end;
+  width: 75%;
+  padding: 2rem;
+  background-color: var(--color-white);
+  margin: calc(25vh - 15rem) auto 0;
+  .MuiFormControlLabel-label{
+    font-size: 1.8rem;
+  }
+  @include respond(tab-port){
+    margin: 0 auto;
+  }
+  .wrapper{
+    position: relative;
+  }
+}
